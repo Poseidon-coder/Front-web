@@ -1,0 +1,21 @@
+.test:hover{
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+}
+.test{
+    color: blueviolet;
+    font-size: 50px;
+    text-align: center;
+}
+p:active{transform: scale(1.1);
+    text-align: center;
+}
+p::first-letter{
+    font-size: 100px;
+}
+input:focus{
+    border-radius: 20px;
+    background-color: gray;
+    cursor: not-allowed;
+}

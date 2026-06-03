@@ -1,0 +1,93 @@
+.navbar{
+    width: 100%;
+    height: 5vh;
+    border: 0px;
+    padding: 50px;
+    
+}
+
+.title{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #234791 ;
+    font-size: 40px;
+    
+    
+}
+.form{
+    width: 50vw;
+    height: 55vh;
+    border: 1px solid gray;
+    margin: auto;
+    border-radius: 10px;
+    background: linear-gradient(-50deg, green, #2aaa8a, #7df9ff,#8ab800);
+    background-size: 400% 400%;
+    animation: form-move 10s ease infinite;
+}
+@keyframes form-move{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+.name > h3{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.image{
+    display: flex;
+}
+.image > img{
+    width: 400px;
+    height: 55vh;
+    border-radius: 10px 100px 100px 10px;
+    
+}
+.name{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px;
+    font-size: 25px;
+}
+.name1{
+    color: white;
+}
+.input{
+    width: 400px;
+    height: 30px;
+    border-radius: 15px;
+}
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    width: 150px;
+    height: 35px;
+    background-color: #447ded;
+}
+button > a{
+    text-decoration: none;
+    color: white;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    
+}
+a{
+    color: white;
+    gap: 5px;
+}

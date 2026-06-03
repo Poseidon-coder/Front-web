@@ -1,0 +1,22 @@
+.Head{
+    color: deeppink;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+.form{
+    width: 30vw;
+    height: 60vh;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+}
+.form > input{
+    width: 97%;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color: antiquewhite;
+}

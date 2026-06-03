@@ -1,0 +1,102 @@
+.nav{
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 1px 5px gray;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    top: 0%;
+}
+.logo{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    gap: 10px;
+    font-size: 18px;
+}
+.logo > img{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    border-radius: 100%;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    text-align: center;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 20px; 
+}
+.letter{
+    margin-left: 70px;
+    width: 91vw;
+    height: 8vh;
+    margin-top: 72px;
+    background-color: #334631;
+    display: flex;
+    justify-content: center;
+    grid-auto-flow: column;
+    align-items: center;
+    color: white;
+    gap: 20px;
+}
+.letter1{
+    margin-left: 650px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 550px;
+    gap: 10px;
+    padding: 10px;
+    margin-top: 10px; 
+}
+.Card{
+    background-color: #2a5849;
+    overflow: hidden;
+    position: relative;
+    color: aliceblue;
+    position: static;
+    border: 2px solid rgb(161, 161, 161);
+    border-radius: 25px;
+    padding: 15px;
+    overflow: hidden;
+    text-align: center;
+}
+.Card > img{
+    width: 88%;
+    height: 375px;
+    border-radius: 30px;
+}
+.buy{
+    width: 100px;
+    border-radius: 30px;
+    border: 1px solid gray;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.about{
+    width: 100.5%;
+    height: 410px;
+    box-shadow: 0 1px 5px gray;
+    display: flex;
+    
+}
+.list-about1{
+    margin-left: 70px;
+    list-style-type: none;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.font{
+    font-size: 15px;
+    padding-top:20px ;
+}

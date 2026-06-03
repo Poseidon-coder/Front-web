@@ -1,0 +1,130 @@
+.nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background: linear-gradient(-45deg, #234791, #6b4c9a, #d59b8c, #3f5efb);
+    background-size: 400% 400%;
+    animation: nav-move 15s ease infinite;
+    gap: 60px;
+    justify-content: stretch;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    display: flex;
+}
+@keyframes nav-move{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+.svg > img{
+    width: 100px;
+    height: 55px; 
+    background-image:-o-linear-gradient(-45deg, #234791, #6b4c9a, #d59b8c, #3f5efb);
+    border: 1px solid purple;
+    border-radius: 100%;
+}
+}
+.nav > button:hover{
+    width:130px;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background-color: white;
+    
+
+}
+.card{
+    width: 101%;
+    height: 900px;
+    border: 1px solid white;
+    background-color: wheat;
+    display: flex;
+    
+   
+}
+.card1{
+    width: 300px;
+    height: 530px;
+    border: 1px solid gray;
+    margin: 50px auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    padding: 20px;
+}
+.card1 > img{
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+}
+.card1 > h3{
+    text-align: center;
+}
+.card1 > button{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100px;
+}
+.card2{
+    width: 300px;
+    height: 530px;
+    border: 1px solid gray;
+    margin: 50px auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    padding: 20px;
+}
+.card2 > img{
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+}
+.card2 > h3{
+    text-align: center;
+}
+.card2 > button{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100px;
+}
+.card3{
+    width: 300px;
+    height: 530px;
+    border: 1px solid gray;
+    margin: 50px auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    padding: 20px;
+}
+.card3 > img{
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+}
+.card3 > h3{
+    text-align: center;
+}
+.card3 > button{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100px;
+}
+

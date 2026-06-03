@@ -1,0 +1,54 @@
+.nav{
+    
+    width: 55vw;
+    height: 60vh;
+    border: 1px solid gray;
+    margin:120px auto ;
+    display: flex;
+}
+.create{
+    padding: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.create .lable{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+input{
+    width: 400px;
+    height: 25px;
+    border-radius: 10px;
+}
+.btn{
+    font-size: 15px;
+    width: 406px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+}
+.image{
+    padding: 20px;
+    width: 100px;
+    width: 200px;
+    border: 1px;
+}
+.image > img{
+    width: 420px;
+    height: 510px;
+    border-radius: 10px;
+}
+.lable > p{
+    font-size: 15px;
+    text-align: center;
+}
+button{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    text-align: center;
+    color: white;
+    background-color: rgb(53, 53, 181);
+}

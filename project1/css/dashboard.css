@@ -1,0 +1,23 @@
+.button1{
+    background-color: darkgreen;
+    color: white;
+    border-radius: 10px;
+    border: 1px ;
+    
+}
+.button2{
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+    border: 1px
+}
+.btn1{
+    border: 1px solid blue;
+    color: blue;
+    border-radius: 5px;
+}
+.btn2{
+    border: 1px solid red;
+    color: red;
+    border-radius: 5px;
+}
